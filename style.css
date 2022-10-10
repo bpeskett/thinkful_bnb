@@ -1,4 +1,6 @@
 
+/* -------  General Styles ------- */
+
 body {
   font-family: "Lato", sans-serif;
 }
@@ -104,7 +106,6 @@ form select,
 form input {
   margin-bottom: 20px;
   width: 65%;
-  float: right;
 }
 
 form button {
@@ -130,7 +131,7 @@ footer p {
 
 /* -------  Media Query ------- */
 
-@media all and (min-width: 600px) {
+@media all and (min-width: 480px) {
   header {
     background-color: #ff385c;
     display: flex;
